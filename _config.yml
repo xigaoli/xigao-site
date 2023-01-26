@@ -7,7 +7,7 @@ tagline: Xigao Li Personal Website
 email: your-email@domain.com
 description: >
   Xigao Li's personal page
-baseurl: "/bulma-clean-theme"
+baseurl: "/xigao-site"
 url: "https://www.xigaoli.com"
 permalink: pretty
 #favicon: /path/to/favicon.png
