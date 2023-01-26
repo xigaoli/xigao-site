@@ -2,7 +2,7 @@
 title: Xigao Li
 subtitle: A system repairer, dataset wizard, Email troubleshooter, website ninja. probably a programmer. An apple a day keeps doctoral degree away.
 layout: page
-callouts: home_callouts
+# callouts: home_callouts
 show_sidebar: true
 ---
 
@@ -27,66 +27,66 @@ Prior to Stony Brook, I worked on file system security and optimization. My work
 
 # Research Projects
 
-## Understanding and Detecting Cryptocurrency Giveaway Scams (Paper Accepted at NDSS 2023!) [Paper website](https://double-and-nothing.github.io/)
+* Understanding and Detecting Cryptocurrency Giveaway Scams (Paper Accepted at NDSS 2023!) [Paper website](https://double-and-nothing.github.io/)
 
-* First large-scale analysis over cryptocurrency giveaway scams.
-* Created automated cryptocurrency scam tracking systems to capture cryptocurrency scam webpages.
-* Collected 10,079 scam web pages in 6 months, extracted 2,266 cryptocurrency scam wallets.
-* Inititated first quantitative analysis to cryptocurrency scam fund loss – attackers have stolen the equivalent of tens of millions of dollars ($26M – $70M).
+  - First large-scale analysis over cryptocurrency giveaway scams.
+  - Created automated cryptocurrency scam tracking systems to capture cryptocurrency scam webpages.
+  - Collected 10,079 scam web pages in 6 months, extracted 2,266 cryptocurrency scam wallets.
+  - Inititated first quantitative analysis to cryptocurrency scam fund loss – attackers have stolen the equivalent of tens of millions of dollars ($26M – $70M).
 
-## Understanding and Detecting Unwanted Vulnerability Scanning 
-* Designed a testbed for web vulnerability scanners (WVS)
-* Observed differences between WVS and users though user study
-* Designed ScannerScope - supervised machine learning model classifies user vs. WVS
+* Understanding and Detecting Unwanted Vulnerability Scanning 
+  - Designed a testbed for web vulnerability scanners (WVS)
+  - Observed differences between WVS and users though user study
+  - Designed ScannerScope - supervised machine learning model classifies user vs. WVS
 
-## Measuring Web Bot Ecosystem [Paper PDF](https://you.stonybrook.edu/xigaoli/files/2021/04/goodbotbadbot_oakland2021.pdf)
+* Measuring Web Bot Ecosystem [Paper PDF](https://you.stonybrook.edu/xigaoli/files/2021/04/goodbotbadbot_oakland2021.pdf)
 
-* Created automatic systems that can deploy honeypot-like web servers to capture web bot activities.
-* Developed behavioral fingerprinting techniques to detect bot behavior and intention.
-* Analyzed bot behaviors, discover malicious bot intentions of bruteforcing, probing and exploiting vulnerabilities.
-* Created visualization of captured bot dataset, provide security insights.
+  - Created automatic systems that can deploy honeypot-like web servers to capture web bot activities.
+  - Developed behavioral fingerprinting techniques to detect bot behavior and intention.
+  - Analyzed bot behaviors, discover malicious bot intentions of bruteforcing, probing and exploiting vulnerabilities.
+  - Created visualization of captured bot dataset, provide security insights.
 
-## Malware Classification with Deep Neural Network using Lightweight Emulation [Talk PDF](https://www.camlis.org/s/camlis_2021_li.pdf)
+* Malware Classification with Deep Neural Network using Lightweight Emulation [Talk PDF](https://www.camlis.org/s/camlis_2021_li.pdf)
 
-* Developed automated malware emulation pipeline, emulated 11 Million malwares with cost <10 hours for EMBER’17 dataset
-* Extracted malware API call sequence, memory access information and RWX counter
-* Trained lightGBM and character level CNN model, achieved 0.99 AUROC / 0.98 accuracy
-* Developed a hybrid CNN model classifying malware families, reached 0.96 accuracy
+  - Developed automated malware emulation pipeline, emulated 11 Million malwares with cost <10 hours for EMBER’17 dataset
+  - Extracted malware API call sequence, memory access information and RWX counter
+  - Trained lightGBM and character level CNN model, achieved 0.99 AUROC / 0.98 accuracy
+  - Developed a hybrid CNN model classifying malware families, reached 0.96 accuracy
 
-## Malicious URL detection for mobile browsers through Deep Neural Network 
+* Malicious URL detection for mobile browsers through Deep Neural Network 
 
-* Crawled both malicious and benign URLs from multiple sources
-* Trained a classifier through CNN and RNN(LSTM).
-* Make the model mobile-available, built a browser demo intergrated with ML model.
+  - Crawled both malicious and benign URLs from multiple sources
+  - Trained a classifier through CNN and RNN(LSTM).
+  - Make the model mobile-available, built a browser demo intergrated with ML model.
 
 
 # Other Projects
 
 Other than major research threads, I build mini-projects for testing new techniques and for fun.
 
-## Animal breed classification with deep neural network [github](https://github.com/xigaoli/animal-breed-classification)
+* Animal breed classification with deep neural network [github](https://github.com/xigaoli/animal-breed-classification)
 
-* Trained a modified VGG16 model to classify cat/dog images and their specific breeds
-* Fine-tuned hyperparameters to achieve best accuracy.
-* Developed web app interface to classify animal breed from URL.
+  - Trained a modified VGG16 model to classify cat/dog images and their specific breeds
+  - Fine-tuned hyperparameters to achieve best accuracy.
+  - Developed web app interface to classify animal breed from URL.
 
-## Empirical study with time series data from Anime market [github](https://github.com/xigaoli/anime-ranking-trends)
+* Empirical study with time series data from Anime market [github](https://github.com/xigaoli/anime-ranking-trends)
 
-* Crawled anime ranking data from 2006 to 2021, extracted anime ranking and scoring data through websites, built a clean ranking dataset
-* Analyzed anime ranking trend, visualized with dynamic video [youtube video]
-* Analyzed popular anime picture tags through Safebooru, extracted popular tags from 2011 to 2021
-* Designed a decay algorithm to measure the popularity of tags over time.
-* Built and fine-tuned a multi-label classifier for anime figures based on a modified VGG-19 model; the model can predict possible tags from any anime figures.
+  - Crawled anime ranking data from 2006 to 2021, extracted anime ranking and scoring data through websites, built a clean ranking dataset
+  - Analyzed anime ranking trend, visualized with dynamic video [youtube video]
+  - Analyzed popular anime picture tags through Safebooru, extracted popular tags from 2011 to 2021
+  - Designed a decay algorithm to measure the popularity of tags over time.
+  - Built and fine-tuned a multi-label classifier for anime figures based on a modified VGG-19 model; the model can predict possible tags from any anime figures.
 
-## Anime face dataset and generation through generative adversarial network
+* Anime face dataset and generation through generative adversarial network
 
-* Used face alignment technique to extract faces from ~30,000 anime portraits and ~2,500 cosplay human faces, build a anime-face oriented dataset.
-* Generated anime faces through styleGAN2, with aligned 15,000 anime faces through face detection.
+  - Used face alignment technique to extract faces from ~30,000 anime portraits and ~2,500 cosplay human faces, build a anime-face oriented dataset.
+  - Generated anime faces through styleGAN2, with aligned 15,000 anime faces through face detection.
 
 
-## safebooru tag trend from 2010-2020:
+* safebooru tag trend from 2010-2020:
  [https://you.stonybrook.edu/xigaoli/safebooru-anime-tag-trend-analysis/](https://you.stonybrook.edu/xigaoli/safebooru-anime-tag-trend-analysis/)
-## Another mock personal homepage, but built through Wangler workers:
+* Another mock personal homepage, but built through Wangler workers:
 [https://my-worker.lxgfrom2009.workers.dev/](https://my-worker.lxgfrom2009.workers.dev/)
-## Simple but pragmatic tool blocking SogouInput ads and tracking:
+* Simple but pragmatic tool blocking SogouInput ads and tracking:
 [https://github.com/xigaoli/sgcld](https://github.com/xigaoli/sgcld)
