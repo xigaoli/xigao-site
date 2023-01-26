@@ -3,7 +3,10 @@
 
 - name: Github
   link: https://github.com/xigaoli
-  
+
+- name: Google Scholar
+  link: https://scholar.google.com/citations?view_op=list_works&hl=en&user=57h3GlsAAAAJ
+
 # - name: Example Pages
 #   link: /#
 #   dropdown:
