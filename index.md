@@ -9,11 +9,11 @@ show_sidebar: false
 # News
 Last update: Dec 25, 2022
 
-Paper accepted in WWW 2023! [Scan Me If You Can: Understanding and Detecting Unwanted Vulnerability Scanning]
+<span style="color:blue">Paper accepted in WWW 2023!</span> [Scan Me If You Can: Understanding and Detecting Unwanted Vulnerability Scanning][NA]
 
-Paper accepted in NDSS 2023! [Double and Nothing: Understanding and Detecting Cryptocurrency Giveaway Scams]
+<span style="color:blue">Paper accepted in NDSS 2023!</span> [Double and Nothing: Understanding and Detecting Cryptocurrency Giveaway Scams](https://double-and-nothing.github.io/)
 
-Paper Accepted at Oakland 2021! [Good Bot, Bad Bot: Characterizing Automated Browsing Activity]
+<span style="color:blue">Paper Accepted at Oakland 2021!</span> [Good Bot, Bad Bot: Characterizing Automated Browsing Activity](https://you.stonybrook.edu/xigaoli/files/2021/04/goodbotbadbot_oakland2021.pdf)
 
 
 # About Me
@@ -34,12 +34,12 @@ Prior to Stony Brook, I worked on file system security and optimization. My work
   - Collected 10,079 scam web pages in 6 months, extracted 2,266 cryptocurrency scam wallets.
   - Inititated first quantitative analysis to cryptocurrency scam fund loss – attackers have stolen the equivalent of tens of millions of dollars ($26M – $70M).
 
-* Understanding and Detecting Unwanted Vulnerability Scanning 
+* Understanding and Detecting Unwanted Vulnerability Scanning (Paper Accepted at WWW 2023!)
   - Designed a testbed for web vulnerability scanners (WVS)
   - Observed differences between WVS and users though user study
   - Designed ScannerScope - supervised machine learning model classifies user vs. WVS
 
-* Measuring Web Bot Ecosystem [Paper PDF](https://you.stonybrook.edu/xigaoli/files/2021/04/goodbotbadbot_oakland2021.pdf)
+* Measuring Web Bot Ecosystem (Paper Accepted at Oakland 2021!) [Paper PDF](https://you.stonybrook.edu/xigaoli/files/2021/04/goodbotbadbot_oakland2021.pdf)
 
   - Created automatic systems that can deploy honeypot-like web servers to capture web bot activities.
   - Developed behavioral fingerprinting techniques to detect bot behavior and intention.
@@ -90,3 +90,5 @@ Other than major research threads, I build mini-projects for testing new techniq
 [https://my-worker.lxgfrom2009.workers.dev/](https://my-worker.lxgfrom2009.workers.dev/)
 * Simple but pragmatic tool blocking SogouInput ads and tracking:
 [https://github.com/xigaoli/sgcld](https://github.com/xigaoli/sgcld)
+
+[NA]: #
