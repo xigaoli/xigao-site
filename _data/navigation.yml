@@ -1,7 +1,9 @@
 - name: Docs
   link: /docs/
-- name: Blog
+
+- name: Github
   link: https://github.com/xigaoli
+  
 # - name: Example Pages
 #   link: /#
 #   dropdown:
