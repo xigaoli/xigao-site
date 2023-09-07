@@ -3,12 +3,15 @@ title: Xigao Li
 # subtitle: A system repairer, dataset wizard, Email troubleshooter, website ninja. probably a programmer. An apple a day keeps doctoral degree away.
 layout: page
 # callouts: home_callouts
-# show_sidebar: false
+show_sidebar: false
 ---
 
 <div class="columns">
   <div class="column is-6">
     <div class="text-wrapper" style="width: 400px;">
+      A system repairer, dataset wizard, Email troubleshooter, website ninja. probably a programmer. 
+    <br>
+    <br>
       "An apple device a day keeps doctoral degree away."
     </div>
   </div>
