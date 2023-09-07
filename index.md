@@ -8,9 +8,18 @@ image: /img/xigao_2031_sq.png
 show_sidebar: false
 ---
 
+<style>
+  .text-wrapper {
+    width: 400px;
+    font-size: 24px; /* Adjust the font size as desired */
+    font-style: italic;
+    font-weight: bold;
+  }
+</style>
+
 <div class="columns">
   <div class="column is-6">
-    <div class="text-wrapper" style="width: 400px;">
+    <div class="text-wrapper">
       A system repairer, dataset wizard, Email troubleshooter, website ninja. probably a programmer. 
     <br>
     <br>
@@ -18,7 +27,7 @@ show_sidebar: false
     </div>
   </div>
   <div class="column is-6">
-    <img src="img/xigao_2031_sq.png" alt="Example image">
+    <img src="img/xigao_2031_sq.png" alt="Profile Image">
   </div>
 </div>
 
