@@ -3,6 +3,8 @@ title: Xigao Li
 # subtitle: A system repairer, dataset wizard, Email troubleshooter, website ninja. probably a programmer. An apple a day keeps doctoral degree away.
 layout: page
 # callouts: home_callouts
+description: A system repairer, dataset wizard, Email troubleshooter, website ninja. probably a programmer. An apple device a day keeps doctoral degree away.
+image: /img/xigao_2031_sq.png
 show_sidebar: false
 ---
 
@@ -21,7 +23,7 @@ show_sidebar: false
 </div>
 
 # News
-Last update: Dec 25, 2022
+Last update: Sep 7, 2023
 
 <span style="color:blue">Paper accepted in WWW 2023!</span> [Scan Me If You Can: Understanding and Detecting Unwanted Vulnerability Scanning][NA]
 
