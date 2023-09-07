@@ -31,7 +31,9 @@ show_sidebar: false
 <div class="columns">
   <div class="column is-6">
     <div class="text-wrapper">
-      A system therapist, dataset wizard, Email troubleshooter, website ninja. And just maybe, a programmer. 
+      A system therapist, dataset wizard, Email troubleshooter, website ninja.
+      <br>
+      And just maybe, a programmer. 
     <br>
     <br>
     </div>
