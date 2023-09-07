@@ -8,7 +8,7 @@ show_sidebar: false
 
 <div class="columns">
 <div class="column is-6">
-{% include image-modal.html ratio="is-16by9" link="img/xigao_2031_sq.png" alt="Example image" %}
+<img src="img/xigao_2031_sq.png" alt="Example image">
 </div>
 <div class="column is-6">
 Profile.
