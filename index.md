@@ -1,7 +1,7 @@
 ---
-# title: Xigao Li
+title: Xigao Li
 # subtitle: A system repairer, dataset wizard, Email troubleshooter, website ninja. probably a programmer. An apple a day keeps doctoral degree away.
-# layout: page
+layout: page
 # callouts: home_callouts
 # show_sidebar: false
 ---
