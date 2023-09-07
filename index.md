@@ -11,7 +11,11 @@ show_sidebar: false
 <style>
   .text-wrapper {
     width: 400px;
-    font-size: 24px; /* Adjust the font size as desired */
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+  }
+  .image-quote {
     font-style: italic;
     font-weight: bold;
   }
@@ -23,11 +27,11 @@ show_sidebar: false
       A system therapist, dataset wizard, Email troubleshooter, website ninja. And just maybe, a programmer. 
     <br>
     <br>
-      "An apple device a day keeps doctoral degree away."
     </div>
   </div>
   <div class="column is-6">
     <img src="img/xigao_2031_sq.png" alt="Profile Image">
+    <p class="image-quote">"An apple device a day keeps doctoral degree away."</p>
   </div>
 </div>
 
