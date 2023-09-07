@@ -2,6 +2,7 @@
 title: Xigao Li
 # subtitle: A system repairer, dataset wizard, Email troubleshooter, website ninja. probably a programmer. An apple a day keeps doctoral degree away.
 layout: page
+hero_height: is-small
 # callouts: home_callouts
 description: A system therapist, dataset wizard, Email troubleshooter, website ninja. probably a programmer. An apple device a day keeps doctoral degree away.
 image: /img/xigao_2031_sq.png
