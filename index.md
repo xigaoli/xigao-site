@@ -11,10 +11,16 @@ show_sidebar: false
 
 <style>
   .text-wrapper {
-    width: 400px;
+    width: 600px;
     font-size: 24px;
     font-style: italic;
     font-weight: bold;
+  }
+  .profile-img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .image-quote {
     font-style: italic;
@@ -30,8 +36,8 @@ show_sidebar: false
     <br>
     </div>
   </div>
-  <div class="column is-6">
-    <img src="img/xigao_2031_sq.png" alt="Profile Image" width="200px">
+  <div class="profile-img-container">
+    <img src="img/xigao_2031_sq.png" alt="Profile Image" width="400px">
     <p class="image-quote">"An apple device a day keeps doctoral degree away."</p>
   </div>
 </div>
