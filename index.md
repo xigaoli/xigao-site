@@ -3,7 +3,7 @@ title: Xigao Li
 # subtitle: A system repairer, dataset wizard, Email troubleshooter, website ninja. probably a programmer. An apple a day keeps doctoral degree away.
 layout: page
 # callouts: home_callouts
-description: A system repairer, dataset wizard, Email troubleshooter, website ninja. probably a programmer. An apple device a day keeps doctoral degree away.
+description: A system therapist, dataset wizard, Email troubleshooter, website ninja. probably a programmer. An apple device a day keeps doctoral degree away.
 image: /img/xigao_2031_sq.png
 show_sidebar: false
 ---
@@ -20,7 +20,7 @@ show_sidebar: false
 <div class="columns">
   <div class="column is-6">
     <div class="text-wrapper">
-      A system repairer, dataset wizard, Email troubleshooter, website ninja. probably a programmer. 
+      A system therapist, dataset wizard, Email troubleshooter, website ninja. And just maybe, a programmer. 
     <br>
     <br>
       "An apple device a day keeps doctoral degree away."
@@ -34,7 +34,9 @@ show_sidebar: false
 # News
 Last update: Sep 7, 2023
 
-<span style="color:blue">Paper accepted in WWW 2023!</span> [Scan Me If You Can: Understanding and Detecting Unwanted Vulnerability Scanning][NA]
+<span style="color:navy">I have successfully defended my Ph.D thesis, “Measuring the Role of Automation in Malicious Web Activities” on August 4th, 2023. </span> [Measuring the Role of Automation in Malicious Web Activities][NA]
+
+<span style="color:blue">Paper accepted in WWW 2023!</span> [Scan Me If You Can: Understanding and Detecting Unwanted Vulnerability Scanning][https://scan-me-if-you-can.github.io]
 
 <span style="color:blue">Paper accepted in NDSS 2023!</span> [Double and Nothing: Understanding and Detecting Cryptocurrency Giveaway Scams](https://double-and-nothing.github.io/)
 
@@ -43,12 +45,11 @@ Last update: Sep 7, 2023
 
 # About Me
 
-I am a Ph.D candidate in the Department of Computer Science at Stony Brook University.
+I am a Ph.D graduated in the Department of Computer Science at Stony Brook University.
 
-I am co-advised by Professor [Nick Nikiforakis](https://securitee.org/) and Professor [Amir Rahmati](https://amir.rahmati.com/). My research focuses on web security and machine learning. On one side, I develop systems to measure and classify automated Internet bots through both machine-learning and heuristic approaches, capture malicious bot behaviors by developing “fingerprinting” techniques. On the other side, I aim to build lightweight and pragmatic deep learning models and use information retrieval techniques to get security insights.
+During my Ph.D, I am co-advised by Professor Nick Nikiforakis and Professor Amir Rahmati. My research focuses on web security and machine learning. On one side, I develop systems to measure and classify automated Internet bots through both machine-learning and heuristic approaches, capture malicious bot behaviors by developing “fingerprinting” techniques. On the other side, I aim to build lightweight and pragmatic deep learning models and use information retrieval techniques to get security insights.
 
-Prior to Stony Brook, I worked on file system security and optimization. My work of disaster-tolerance of MooseFS can be found in here(github), as well as some published paper.
-[published paper](https://link.springer.com/article/10.1007/s11227-016-1902-9)
+Prior to Stony Brook, I worked on file system security and optimization. My work of disaster-tolerance of MooseFS can be found in here(github), as well as some [published paper](https://link.springer.com/article/10.1007/s11227-016-1902-9).
 
 # Research Projects
 
