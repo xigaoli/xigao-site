@@ -34,9 +34,11 @@ show_sidebar: false
 # News
 Last update: Sep 7, 2023
 
-<span style="color:navy">I have successfully defended my Ph.D thesis, “Measuring the Role of Automation in Malicious Web Activities” on August 4th, 2023. </span> [Measuring the Role of Automation in Malicious Web Activities][NA]
+<span style="color:navy">I have successfully defended my Ph.D thesis, “Measuring the Role of Automation in Malicious Web Activities” on August 4th, 2023. </span>
 
-<span style="color:blue">Paper accepted in WWW 2023!</span> [Scan Me If You Can: Understanding and Detecting Unwanted Vulnerability Scanning][https://scan-me-if-you-can.github.io]
+[Measuring the Role of Automation in Malicious Web Activities](files/xigao-thesis-presentation-slides.pdf)
+
+<span style="color:blue">Paper accepted in WWW 2023!</span> [Scan Me If You Can: Understanding and Detecting Unwanted Vulnerability Scanning](https://scan-me-if-you-can.github.io)
 
 <span style="color:blue">Paper accepted in NDSS 2023!</span> [Double and Nothing: Understanding and Detecting Cryptocurrency Giveaway Scams](https://double-and-nothing.github.io/)
 
