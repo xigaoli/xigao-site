@@ -2,10 +2,18 @@
 title: Xigao Li
 subtitle: A system repairer, dataset wizard, Email troubleshooter, website ninja. probably a programmer. An apple a day keeps doctoral degree away.
 layout: page
-image: /img/xigao_2031_sq.jpg
 # callouts: home_callouts
 show_sidebar: false
 ---
+
+<div class="columns">
+<div class="column is-6">
+{% include image-modal.html ratio="is-16by9" link="img/xigao_2031_sq.png" alt="Example image" %}
+</div>
+<div class="column is-6">
+Profile.
+</div>
+</div>
 
 # News
 Last update: Dec 25, 2022
