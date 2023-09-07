@@ -1,5 +1,5 @@
 ---
-title: Xigao Li
+title: Xigao (Drake) Li
 # subtitle: A system repairer, dataset wizard, Email troubleshooter, website ninja. probably a programmer. An apple a day keeps doctoral degree away.
 layout: page
 hero_height: is-small
