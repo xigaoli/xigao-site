@@ -11,7 +11,7 @@ show_sidebar: false
 
 <style>
   .text-wrapper {
-    width: 600px;
+    max-width: 600px;
     font-size: 24px;
     font-style: italic;
     font-weight: bold;
@@ -31,9 +31,9 @@ show_sidebar: false
 <div class="columns">
   <div class="column is-6">
     <div class="text-wrapper">
-      A system therapist, dataset wizard, Email troubleshooter, website ninja.
+      <p>A system therapist, dataset wizard, Email troubleshooter, website ninja.</p>
       <br>
-      And just maybe, a programmer. 
+      <p>AAnd just maybe, a programmer. </p>
     <br>
     <br>
     </div>
