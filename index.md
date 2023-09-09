@@ -37,11 +37,6 @@ show_sidebar: false
     <br>
     <br>
     </div>
-    <div>
-    <a href="https://quitphd.com">
-      <img src="img/quit_cr.jpg" alt="Quit PhD" width="200px">
-    </a> 
-    </div>
   </div>
   <div class="profile-img-container">
     <img src="img/xigao_2031_sq.png" alt="Profile Image" width="400px">
