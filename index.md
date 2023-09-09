@@ -33,9 +33,14 @@ show_sidebar: false
     <div class="text-wrapper">
       <p>A system therapist, dataset wizard, Email troubleshooter, website ninja.</p>
       <br>
-      <p>AAnd just maybe, a programmer. </p>
+      <p>And just maybe, a programmer. </p>
     <br>
     <br>
+    </div>
+    <div>
+    <a href="https://quitphd.com">
+      <img src="img/quit_cr.jpg" alt="Quit PhD" width="200px">
+    </a> 
     </div>
   </div>
   <div class="profile-img-container">
