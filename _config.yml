@@ -7,7 +7,7 @@ tagline: Xigao's Personal Website
 email: lxgfrom2009@gmail.com
 description: >
   Xigao Li's personal page
-baseurl: "/xigao-site"
+baseurl: "/"
 url: "https://www.xigaoli.com"
 permalink: pretty
 #favicon: /path/to/favicon.png
