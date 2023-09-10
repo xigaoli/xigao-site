@@ -132,4 +132,8 @@ Other than major research threads, I build mini-projects for testing new techniq
 * Simple but pragmatic tool blocking SogouInput ads and tracking:
 [https://github.com/xigaoli/sgcld](https://github.com/xigaoli/sgcld)
 
+<p>Lastly, I have something else that is interesting.</p>
+<a href="https://quitphd.com"><img src="img/quit_cr.jpg" alt="Quit PhD" width="80px"></a>
+
 [NA]: #
+
