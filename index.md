@@ -39,7 +39,7 @@ show_sidebar: false
     </div>
   </div>
   <div class="profile-img-container">
-    <img src="img/xigao_2031_sq.png" alt="Profile Image" width="400px">
+    <img src="img/xigao_2031_sq.png" alt="Profile Image" width="300px">
     <p class="image-quote">"An apple device a day keeps doctoral degree away."</p>
   </div>
 </div>
