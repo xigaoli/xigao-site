@@ -45,9 +45,11 @@ show_sidebar: false
 </div>
 
 # News
-Last update: Sep 7, 2023
+Last update: Sep 15, 2023
 
-<span style="color:navy">I have successfully defended my Ph.D thesis, “Measuring the Role of Automation in Malicious Web Activities” on August 4th, 2023. </span>
+<span style="color:blue">Paper accepted in NDSS 2024!</span> [Like, Comment, Get Scammed: Characterizing Comment Scams on Media Platforms](https://like-comment-get-scammed.github.io/)
+
+<span style="color:LightSalmon">I have successfully defended my Ph.D thesis, “Measuring the Role of Automation in Malicious Web Activities” on August 4th, 2023. </span>
 
 [Measuring the Role of Automation in Malicious Web Activities](files/xigao-thesis-presentation-slides.pdf)
 
