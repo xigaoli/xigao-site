@@ -26,7 +26,106 @@ show_sidebar: false
     font-style: italic;
     font-weight: bold;
   }
+
+  /* Styles for the modal */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .modal-content {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            width: 50%;
+            max-width: 500px;
+            margin: 15% auto;
+            position: relative;
+            text-align: center;
+        }
+
+        .close-btn {
+            background: red;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            cursor: pointer;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+
+        .copy-btn {
+            background: green;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            cursor: pointer;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+
+        textarea {
+            width: 100%;
+            height: 80px;
+            resize: none;
+        }
+        .hidden-reference {
+            display: none;
+        }
+  /* button styles */
+  .transparent-btn {
+    background: transparent;
+    border: 2px solid blue; /* Add a border to make it visible */
+    color: blue; /* Text color */
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.transparent-btn:hover {
+    background: rgba(0, 0, 255, 0.1); /* Light blue on hover */
+}
+
 </style>
+
+<!-- The Modal to display reference -->
+<div id="referenceModal" class="modal">
+    <div class="modal-content">
+        <h3>Reference</h3>
+        <textarea id="referenceText" readonly>
+--        
+        </textarea>
+        <br>
+        <button class="copy-btn" onclick="copyReference()">Copy</button>
+        <button class="close-btn" onclick="closeModal()">Close</button>
+    </div>
+</div>
+
+<script>
+function openModal(referenceId) {
+            let referenceText = document.getElementById(referenceId).innerText.trim();
+            document.getElementById("referenceText").value = referenceText;
+            document.getElementById("referenceModal").style.display = "block";
+        }
+        function closeModal() {
+            document.getElementById("referenceModal").style.display = "none";
+        }
+        function copyReference() {
+            let textArea = document.getElementById("referenceText");
+            textArea.select();
+            textArea.setSelectionRange(0, 99999); // For mobile devices
+            navigator.clipboard.writeText(textArea.value);
+            alert("Reference copied!");
+        }
+</script>
 
 <div class="columns">
   <div class="column is-6">
@@ -48,12 +147,30 @@ show_sidebar: false
 Last update: Feb 5, 2025
 
 <span style="color:blue">Paper accepted in WWW 2025!</span> [The Poorest Man in Babylon: A Longitudinal Study of Cryptocurrency Investment Scams](#news)
+<button class="transparent-btn" onclick="openModal('ref-muzammil2025crimson')">Reference</button>
+<span id="ref-muzammil2025crimson" class="hidden-reference">
+  @inproceedings{muzammil2025crimson,
+    title = {{The Poorest Man in Babylon: A Longitudinal Study of Cryptocurrency Investment Scams}},
+    author = {Muhammad Muzammil and Abisheka Pitumpe and Xigao Li and Amir Rahmati and Nick Nikiforakis},
+    booktitle = {Proceedings of the Web Conference (WWW)},
+    year = {2025},
+  }
+</span>
 
 <span>I have started my career in Meta as a Research Scientist, I work in internationalization (i18n) team, helping to deliver Meta products globally with a local feeling.</span> 
 
 <span>I have started my career in Bloomberg as a Software Engineer. My work will primarily support internal ticketing pipeline to ensure timely and accurate ticket generation and delivery.</span> 
 
 <span style="color:blue">Paper accepted in NDSS 2024!</span> [Like, Comment, Get Scammed: Characterizing Comment Scams on Media Platforms](https://like-comment-get-scammed.github.io/)
+<button class="transparent-btn" onclick="openModal('ref-li2024commentscams')">Reference</button>
+<span id="ref-li2024commentscams" class="hidden-reference">
+  @inproceedings{li2024commentscams,
+    title = {{Like, Comment, Get Scammed: Characterizing Comment Scams on Media Platforms}},
+    author = {Xigao Li and Amir Rahmati and Nick Nikiforakis},
+    booktitle = {Proceedings of the Network and Distributed System Security Symposium (NDSS)},
+    year = {2024},
+  }
+</span>
 
 <span style="color:LightSalmon">I have successfully defended my Ph.D thesis, “Measuring the Role of Automation in Malicious Web Activities” on August 4th, 2023. </span>
 
@@ -61,9 +178,37 @@ Last update: Feb 5, 2025
 
 <span style="color:blue">Paper accepted in WWW 2023!</span> [Scan Me If You Can: Understanding and Detecting Unwanted Vulnerability Scanning](https://scan-me-if-you-can.github.io)
 
+<button class="transparent-btn" onclick="openModal('ref-li2023scanme')">Reference</button>
+<span id="ref-li2023scanme" class="hidden-reference">
+  @inproceedings{li2023scanme,
+    author = {Li, Xigao and Amin Azad, Babak and Rahmati, Amir and Nikiforakis, Nick},
+    title = {Scan Me If You Can: Understanding and Detecting Unwanted Vulnerability Scanning},
+    year = {2023},
+    booktitle = {Proceedings of the ACM Web Conference (WWW)},
+    }
+</span>
+
 <span style="color:blue">Paper accepted in NDSS 2023!</span> [Double and Nothing: Understanding and Detecting Cryptocurrency Giveaway Scams](https://double-and-nothing.github.io/)
+<button class="transparent-btn" onclick="openModal('ref-li2023cryptoscams')">Reference</button>
+<span id="ref-li2023cryptoscams" class="hidden-reference">
+  @inproceedings{li2023cryptoscams,
+    title = {{Double and Nothing: Understanding and Detecting Cryptocurrency Giveaway Scams}},
+    author = {Xigao Li and Anurag Yepuri and Nick Nikiforakis},
+    booktitle = {Proceedings of the Network and Distributed System Security Symposium (NDSS)},
+    year = {2023},
+   }
+</span>
 
 <span style="color:blue">Paper Accepted at Oakland 2021!</span> [Good Bot, Bad Bot: Characterizing Automated Browsing Activity](https://you.stonybrook.edu/xigaoli/files/2021/04/goodbotbadbot_oakland2021.pdf)
+<button class="transparent-btn" onclick="openModal('ref-li2021botcharacterization')">Reference</button>
+<span id="ref-li2021botcharacterization" class="hidden-reference">
+  @inproceedings{li2021botcharacterization,
+    title = {{Good Bot, Bad Bot: Characterizing Automated Browsing Activity}},
+    author = {Xigao Li and Babak {Amin Azad} and Amir Rahmati and Nick Nikiforakis},
+    booktitle = {Proceedings of the 42nd IEEE Symposium on Security and Privacy (IEEE S\&P)},
+    year = {2021},
+   }     
+</span>
 
 
 # About Me
