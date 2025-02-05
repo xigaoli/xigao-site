@@ -36,44 +36,51 @@ show_sidebar: false
             top: 0;
             width: 100%;
             height: 100%;
-            background-color: rgba(0, 0, 0, 0.5);
+            background-color: rgba(57, 57, 57, 0.5);
         }
 
         .modal-content {
             background-color: white;
             padding: 20px;
             border-radius: 8px;
-            width: 50%;
-            max-width: 500px;
+            width: 70%;
+            max-width: 800px;
             margin: 15% auto;
             position: relative;
             text-align: center;
         }
 
         .close-btn {
-            background: red;
-            color: white;
+            background: lightgrey;
+            color: black;
             border: none;
             padding: 8px 16px;
             cursor: pointer;
             border-radius: 4px;
             margin-top: 10px;
+            font-family: "SF Mono", "Menlo", "Consolas", "Courier New", monospace;
         }
 
         .copy-btn {
-            background: green;
-            color: white;
+            background: lightgreen;
+            color: black;
             border: none;
             padding: 8px 16px;
             cursor: pointer;
             border-radius: 4px;
             margin-top: 10px;
+            font-family: "SF Mono", "Menlo", "Consolas", "Courier New", monospace;
         }
 
         textarea {
             width: 100%;
-            height: 80px;
+            height: 120px;
             resize: none;
+            font-family: "SF Mono", "Menlo", "Consolas", "Courier New", monospace;
+            background-color: #f5f5f5; /* Light gray background for better contrast */
+            border: 1px solid #ccc;
+            padding: 8px;
+            color: #333333;
         }
         .hidden-reference {
             display: none;
