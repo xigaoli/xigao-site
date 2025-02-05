@@ -45,7 +45,9 @@ show_sidebar: false
 </div>
 
 # News
-Last update: Sep 15, 2023
+Last update: Feb 5, 2025
+
+<span style="color:blue">Paper accepted in WWW 2025!</span> [The Poorest Man in Babylon: A Longitudinal Study of Cryptocurrency Investment Scams](#news)
 
 <span>I have started my career in Meta as a Research Scientist, I work in internationalization (i18n) team, helping to deliver Meta products globally with a local feeling.</span> 
 
