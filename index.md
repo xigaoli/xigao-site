@@ -150,7 +150,7 @@ Last update: Feb 5, 2025
 <button class="transparent-btn" onclick="openModal('ref-muzammil2025crimson')">Reference</button>
 <span id="ref-muzammil2025crimson" class="hidden-reference">
   @inproceedings{muzammil2025crimson,
-    title = {{The Poorest Man in Babylon: A Longitudinal Study of Cryptocurrency Investment Scams}},
+    title = {The Poorest Man in Babylon: A Longitudinal Study of Cryptocurrency Investment Scams},
     author = {Muhammad Muzammil and Abisheka Pitumpe and Xigao Li and Amir Rahmati and Nick Nikiforakis},
     booktitle = {Proceedings of the Web Conference (WWW)},
     year = {2025},
@@ -165,7 +165,7 @@ Last update: Feb 5, 2025
 <button class="transparent-btn" onclick="openModal('ref-li2024commentscams')">Reference</button>
 <span id="ref-li2024commentscams" class="hidden-reference">
   @inproceedings{li2024commentscams,
-    title = {{Like, Comment, Get Scammed: Characterizing Comment Scams on Media Platforms}},
+    title = {Like, Comment, Get Scammed: Characterizing Comment Scams on Media Platforms},
     author = {Xigao Li and Amir Rahmati and Nick Nikiforakis},
     booktitle = {Proceedings of the Network and Distributed System Security Symposium (NDSS)},
     year = {2024},
@@ -192,7 +192,7 @@ Last update: Feb 5, 2025
 <button class="transparent-btn" onclick="openModal('ref-li2023cryptoscams')">Reference</button>
 <span id="ref-li2023cryptoscams" class="hidden-reference">
   @inproceedings{li2023cryptoscams,
-    title = {{Double and Nothing: Understanding and Detecting Cryptocurrency Giveaway Scams}},
+    title = {Double and Nothing: Understanding and Detecting Cryptocurrency Giveaway Scams},
     author = {Xigao Li and Anurag Yepuri and Nick Nikiforakis},
     booktitle = {Proceedings of the Network and Distributed System Security Symposium (NDSS)},
     year = {2023},
@@ -203,7 +203,7 @@ Last update: Feb 5, 2025
 <button class="transparent-btn" onclick="openModal('ref-li2021botcharacterization')">Reference</button>
 <span id="ref-li2021botcharacterization" class="hidden-reference">
   @inproceedings{li2021botcharacterization,
-    title = {{Good Bot, Bad Bot: Characterizing Automated Browsing Activity}},
+    title = {Good Bot, Bad Bot: Characterizing Automated Browsing Activity},
     author = {Xigao Li and Babak {Amin Azad} and Amir Rahmati and Nick Nikiforakis},
     booktitle = {Proceedings of the 42nd IEEE Symposium on Security and Privacy (IEEE S\&P)},
     year = {2021},
