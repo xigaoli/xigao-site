@@ -28,7 +28,7 @@ show_sidebar: false
   }
 
   .publication-head {
-    background-color: rgba(76,175,80,0.2); /* Green background */
+    background-color: rgba(76,175,80,0.4); /* Green background */
     font-weight: bold;
     font-family: "Arial", "Helvetica", sans-serif; /* Clean, readable font */
     padding: 4px 10px; /* Add padding for spacing */
