@@ -189,8 +189,9 @@ function openModal(referenceId) {
 </div>
 
 # News
-<p> Last update: Feb 5, 2025</p>
+<p> Last update: Feb 6, 2025</p>
 <div class="news-box">
+
 <span class="span-news-head">Paper accepted in WWW 2025!</span> [The Poorest Man in Babylon: A Longitudinal Study of Cryptocurrency Investment Scams](#news)
 <button class="reference-btn" onclick="openModal('ref-muzammil2025crimson')">Reference</button>
 <span id="ref-muzammil2025crimson" class="hidden-reference">
@@ -201,10 +202,13 @@ function openModal(referenceId) {
     year = {2025},
   }
 </span>
+<br>
 
-<span>I have started my career in Meta as a Research Scientist, I work in internationalization (i18n) team, helping to deliver Meta products globally with a local feeling.</span> 
+<span class="span-news-head">New Career!</span> <span>I have started my career in Meta as a Research Scientist, I work in internationalization (i18n) team, helping to deliver Meta products globally with a local feeling.</span> 
+<br>
 
-<span>I have started my career in Bloomberg as a Software Engineer. My work will primarily support internal ticketing pipeline to ensure timely and accurate ticket generation and delivery.</span> 
+<span class="span-news-head">New Career!</span> <span>I have started my career in Bloomberg as a Software Engineer. My work will primarily support internal ticketing pipeline to ensure timely and accurate ticket generation and delivery.</span> 
+<br>
 
 <span class="span-news-head">Paper accepted in NDSS 2024!</span> [Like, Comment, Get Scammed: Characterizing Comment Scams on Media Platforms](https://like-comment-get-scammed.github.io/)
 <button class="reference-btn" onclick="openModal('ref-li2024commentscams')">Reference</button>
@@ -216,13 +220,12 @@ function openModal(referenceId) {
     year = {2024},
   }
 </span>
+<br>
 
 <span style="color:LightSalmon">I have successfully defended my Ph.D thesis, “Measuring the Role of Automation in Malicious Web Activities” on August 4th, 2023. </span>
-
-[Measuring the Role of Automation in Malicious Web Activities](files/xigao-thesis-presentation-slides.pdf)
+<br>
 
 <span class="span-news-head">Paper accepted in WWW 2023!</span> [Scan Me If You Can: Understanding and Detecting Unwanted Vulnerability Scanning](https://scan-me-if-you-can.github.io)
-
 <button class="reference-btn" onclick="openModal('ref-li2023scanme')">Reference</button>
 <span id="ref-li2023scanme" class="hidden-reference">
   @inproceedings{li2023scanme,
@@ -232,6 +235,7 @@ function openModal(referenceId) {
     booktitle = {Proceedings of the ACM Web Conference (WWW)},
     }
 </span>
+<br>
 
 <span class="span-news-head">Paper accepted in NDSS 2023!</span> [Double and Nothing: Understanding and Detecting Cryptocurrency Giveaway Scams](https://double-and-nothing.github.io/)
 <button class="reference-btn" onclick="openModal('ref-li2023cryptoscams')">Reference</button>
@@ -243,6 +247,7 @@ function openModal(referenceId) {
     year = {2023},
    }
 </span>
+<br>
 
 <span class="span-news-head">Paper Accepted at Oakland 2021!</span> [Good Bot, Bad Bot: Characterizing Automated Browsing Activity](https://you.stonybrook.edu/xigaoli/files/2021/04/goodbotbadbot_oakland2021.pdf)
 <button class="reference-btn" onclick="openModal('ref-li2021botcharacterization')">Reference</button>
@@ -254,6 +259,7 @@ function openModal(referenceId) {
     year = {2021},
    }     
 </span>
+<br>
 </div>
 
 # About Me
