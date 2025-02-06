@@ -27,6 +27,39 @@ show_sidebar: false
     font-weight: bold;
   }
 
+  .publication-head {
+    background-color: rgba(76,175,80,0.2); /* Green background */
+    color: white; /* White text */
+    font-weight: bold;
+    font-family: "Arial", "Helvetica", sans-serif; /* Clean, readable font */
+    padding: 4px 10px; /* Add padding for spacing */
+    border-radius: 8px; /* Rounded corners */
+    display: inline-block; /* Ensures padding and background wrap properly */
+    font-size: 14px; /* Adjust font size */
+    text-transform: uppercase; /* Make text uppercase for emphasis */
+}
+
+  .span-news-head {
+    background-color: rgba(76,175,80,0.1); /* Green background */
+    color: Black; /* White text */
+    font-weight: bold;
+    font-family: "Arial", "Helvetica", sans-serif; /* Clean, readable font */
+    padding: 0px 6px; /* Add padding for spacing */
+    border-radius: 8px; /* Rounded corners */
+    display: inline-block; /* Ensures padding and background wrap properly */
+    font-size: 14px; /* Adjust font size */
+}
+
+  .news-box {
+      height: 200px; /* Fixed height to limit space usage */
+      border: 1px solid #ccc; /* Light gray border for visibility */
+      border-radius: 10px; /* Rounded corners */
+      padding: 10px;
+      overflow-y: auto; /* Enable vertical scrolling */
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      line-height: 1.5; /* Improve readability */
+  }
   /* Styles for the modal */
         .modal {
             display: none; /* Hidden by default */
@@ -85,21 +118,26 @@ show_sidebar: false
         .hidden-reference {
             display: none;
         }
-  /* button styles */
-  .transparent-btn {
-    background: transparent;
-    border: 2px solid blue; /* Add a border to make it visible */
-    color: blue; /* Text color */
-    padding: 8px 12px;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 14px;
-    transition: all 0.3s ease;
-}
+      /* button styles */
+      .reference-btn {
+        background-color: rgba(102, 236, 107, 0.1); /* Same green with 20% opacity */
+        border: 2px solid rgba(192, 245, 194, 0.1); /* Subtle green border */
+        color: #2d6a2d; /* Dark green text, same as span */
+        font-family: "Arial", "Helvetica", sans-serif;
+        padding: 4px 4px; 
+        border-radius: 6px; 
+        font-size: 10px;
+        cursor: pointer;
+        text-transform: uppercase; /* Optional: makes it stand out */
+        transition: all 0.3s ease-in-out;
+        display: inline-block;
+      }
 
-.transparent-btn:hover {
-    background: rgba(0, 0, 255, 0.1); /* Light blue on hover */
-}
+      .reference-btn:hover {
+          background-color: rgba(76, 175, 80, 0.4); /* Slightly stronger green on hover */
+          border-color: rgba(76, 175, 80, 0.7); /* Darken border slightly */
+      }
+
 
 </style>
 
@@ -151,10 +189,10 @@ function openModal(referenceId) {
 </div>
 
 # News
-Last update: Feb 5, 2025
-
-<span style="color:blue">Paper accepted in WWW 2025!</span> [The Poorest Man in Babylon: A Longitudinal Study of Cryptocurrency Investment Scams](#news)
-<button class="transparent-btn" onclick="openModal('ref-muzammil2025crimson')">Reference</button>
+<p> Last update: Feb 5, 2025</p>
+<div class="news-box">
+<span class="span-news-head">Paper accepted in WWW 2025!</span> [The Poorest Man in Babylon: A Longitudinal Study of Cryptocurrency Investment Scams](#news)
+<button class="reference-btn" onclick="openModal('ref-muzammil2025crimson')">Reference</button>
 <span id="ref-muzammil2025crimson" class="hidden-reference">
   @inproceedings{muzammil2025crimson,
     title = {The Poorest Man in Babylon: A Longitudinal Study of Cryptocurrency Investment Scams},
@@ -168,8 +206,8 @@ Last update: Feb 5, 2025
 
 <span>I have started my career in Bloomberg as a Software Engineer. My work will primarily support internal ticketing pipeline to ensure timely and accurate ticket generation and delivery.</span> 
 
-<span style="color:blue">Paper accepted in NDSS 2024!</span> [Like, Comment, Get Scammed: Characterizing Comment Scams on Media Platforms](https://like-comment-get-scammed.github.io/)
-<button class="transparent-btn" onclick="openModal('ref-li2024commentscams')">Reference</button>
+<span class="span-news-head">Paper accepted in NDSS 2024!</span> [Like, Comment, Get Scammed: Characterizing Comment Scams on Media Platforms](https://like-comment-get-scammed.github.io/)
+<button class="reference-btn" onclick="openModal('ref-li2024commentscams')">Reference</button>
 <span id="ref-li2024commentscams" class="hidden-reference">
   @inproceedings{li2024commentscams,
     title = {Like, Comment, Get Scammed: Characterizing Comment Scams on Media Platforms},
@@ -183,9 +221,9 @@ Last update: Feb 5, 2025
 
 [Measuring the Role of Automation in Malicious Web Activities](files/xigao-thesis-presentation-slides.pdf)
 
-<span style="color:blue">Paper accepted in WWW 2023!</span> [Scan Me If You Can: Understanding and Detecting Unwanted Vulnerability Scanning](https://scan-me-if-you-can.github.io)
+<span class="span-news-head">Paper accepted in WWW 2023!</span> [Scan Me If You Can: Understanding and Detecting Unwanted Vulnerability Scanning](https://scan-me-if-you-can.github.io)
 
-<button class="transparent-btn" onclick="openModal('ref-li2023scanme')">Reference</button>
+<button class="reference-btn" onclick="openModal('ref-li2023scanme')">Reference</button>
 <span id="ref-li2023scanme" class="hidden-reference">
   @inproceedings{li2023scanme,
     author = {Li, Xigao and Amin Azad, Babak and Rahmati, Amir and Nikiforakis, Nick},
@@ -195,8 +233,8 @@ Last update: Feb 5, 2025
     }
 </span>
 
-<span style="color:blue">Paper accepted in NDSS 2023!</span> [Double and Nothing: Understanding and Detecting Cryptocurrency Giveaway Scams](https://double-and-nothing.github.io/)
-<button class="transparent-btn" onclick="openModal('ref-li2023cryptoscams')">Reference</button>
+<span class="span-news-head">Paper accepted in NDSS 2023!</span> [Double and Nothing: Understanding and Detecting Cryptocurrency Giveaway Scams](https://double-and-nothing.github.io/)
+<button class="reference-btn" onclick="openModal('ref-li2023cryptoscams')">Reference</button>
 <span id="ref-li2023cryptoscams" class="hidden-reference">
   @inproceedings{li2023cryptoscams,
     title = {Double and Nothing: Understanding and Detecting Cryptocurrency Giveaway Scams},
@@ -206,8 +244,8 @@ Last update: Feb 5, 2025
    }
 </span>
 
-<span style="color:blue">Paper Accepted at Oakland 2021!</span> [Good Bot, Bad Bot: Characterizing Automated Browsing Activity](https://you.stonybrook.edu/xigaoli/files/2021/04/goodbotbadbot_oakland2021.pdf)
-<button class="transparent-btn" onclick="openModal('ref-li2021botcharacterization')">Reference</button>
+<span class="span-news-head">Paper Accepted at Oakland 2021!</span> [Good Bot, Bad Bot: Characterizing Automated Browsing Activity](https://you.stonybrook.edu/xigaoli/files/2021/04/goodbotbadbot_oakland2021.pdf)
+<button class="reference-btn" onclick="openModal('ref-li2021botcharacterization')">Reference</button>
 <span id="ref-li2021botcharacterization" class="hidden-reference">
   @inproceedings{li2021botcharacterization,
     title = {Good Bot, Bad Bot: Characterizing Automated Browsing Activity},
@@ -216,7 +254,7 @@ Last update: Feb 5, 2025
     year = {2021},
    }     
 </span>
-
+</div>
 
 # About Me
 
@@ -225,6 +263,78 @@ I am a Ph.D graduated in the Department of Computer Science at Stony Brook Unive
 During my Ph.D, I am co-advised by Professor Nick Nikiforakis and Professor Amir Rahmati. My research focuses on web security and machine learning. On one side, I develop systems to measure and classify automated Internet bots through both machine-learning and heuristic approaches, capture malicious bot behaviors by developing “fingerprinting” techniques. On the other side, I aim to build lightweight and pragmatic deep learning models and use information retrieval techniques to get security insights.
 
 Prior to Stony Brook, I worked on file system security and optimization. My work of disaster-tolerance of MooseFS can be found in here(github), as well as some [published paper](https://link.springer.com/article/10.1007/s11227-016-1902-9).
+
+# Published Paper
+
+<ol>
+  <li>
+    <span class="publication-head">[WWW 2025]</span> <a href="">[The Poorest Man in Babylon: A Longitudinal Study of Cryptocurrency Investment Scams]</a>
+    <button class="reference-btn" onclick="openModal('ref-muzammil2025crimson')">Reference</button>
+    <span id="ref-muzammil2025crimson" class="hidden-reference">
+      @inproceedings{muzammil2025crimson,
+        title = {The Poorest Man in Babylon: A Longitudinal Study of Cryptocurrency Investment Scams},
+        author = {Muhammad Muzammil and Abisheka Pitumpe and Xigao Li and Amir Rahmati and Nick Nikiforakis},
+        booktitle = {Proceedings of the Web Conference (WWW)},
+        year = {2025},
+      }
+    </span>
+  </li>
+
+  <li>
+    <span class="publication-head">[NDSS 2024]</span> <a href="https://like-comment-get-scammed.github.io/">Like, Comment, Get Scammed: Characterizing Comment Scams on Media Platforms</a>
+    <button class="reference-btn" onclick="openModal('ref-li2024commentscams')">Reference</button>
+    <span id="ref-li2024commentscams" class="hidden-reference">
+      @inproceedings{li2024commentscams,
+        title = {Like, Comment, Get Scammed: Characterizing Comment Scams on Media Platforms},
+        author = {Xigao Li and Amir Rahmati and Nick Nikiforakis},
+        booktitle = {Proceedings of the Network and Distributed System Security Symposium (NDSS)},
+        year = {2024},
+      }
+    </span>
+  </li>
+
+  <li>
+    <span class="publication-head">[Thesis]</span> <a href="files/xigao-thesis-presentation-slides.pdf">Measuring the Role of Automation in Malicious Web Activities</a>
+  </li>
+  <li>
+  <span class="publication-head">[WWW 2023]</span> <a href="https://scan-me-if-you-can.github.io">Scan Me If You Can: Understanding and Detecting Unwanted Vulnerability Scanning</a>
+  <button class="reference-btn" onclick="openModal('ref-li2023scanme')">Reference</button>
+  <span id="ref-li2023scanme" class="hidden-reference">
+    @inproceedings{li2023scanme,
+      author = {Li, Xigao and Amin Azad, Babak and Rahmati, Amir and Nikiforakis, Nick},
+      title = {Scan Me If You Can: Understanding and Detecting Unwanted Vulnerability Scanning},
+      year = {2023},
+      booktitle = {Proceedings of the ACM Web Conference (WWW)},
+      }
+  </span>
+  </li>
+  
+  <li>
+  <span class="publication-head">[NDSS 2023]</span> <a href="https://double-and-nothing.github.io/">Double and Nothing: Understanding and Detecting Cryptocurrency Giveaway Scams</a>
+  <button class="reference-btn" onclick="openModal('ref-li2023cryptoscams')">Reference</button>
+  <span id="ref-li2023cryptoscams" class="hidden-reference">
+    @inproceedings{li2023cryptoscams,
+      title = {Double and Nothing: Understanding and Detecting Cryptocurrency Giveaway Scams},
+      author = {Xigao Li and Anurag Yepuri and Nick Nikiforakis},
+      booktitle = {Proceedings of the Network and Distributed System Security Symposium (NDSS)},
+      year = {2023},
+    }
+  </span>
+  </li>
+
+  <li>
+    <span class="publication-head">[Oakland 2021]</span> <a href="https://you.stonybrook.edu/xigaoli/files/2021/04/goodbotbadbot_oakland2021.pdf">Good Bot, Bad Bot: Characterizing Automated Browsing Activity</a>
+    <button class="reference-btn" onclick="openModal('ref-li2021botcharacterization')">Reference</button>
+    <span id="ref-li2021botcharacterization" class="hidden-reference">
+      @inproceedings{li2021botcharacterization,
+        title = {Good Bot, Bad Bot: Characterizing Automated Browsing Activity},
+        author = {Xigao Li and Babak {Amin Azad} and Amir Rahmati and Nick Nikiforakis},
+        booktitle = {Proceedings of the 42nd IEEE Symposium on Security and Privacy (IEEE S\&P)},
+        year = {2021},
+      }     
+    </span>
+  </li>
+</ol>
 
 # Research Projects
 
