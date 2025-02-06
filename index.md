@@ -153,6 +153,13 @@ show_sidebar: false
 </div>
 
 <script>
+  function toggleProfileImage() {
+    let imgElement = document.getElementById("profileImage");
+    let img1 = "img/xigao_2031_sq.png";  // First image
+    let img2 = "img/xigao-github-430.jpg";  // Second image
+    // Toggle between images
+    imgElement.src = (imgElement.src.includes(img1)) ? img2 : img1;
+  }
 function openModal(referenceId) {
             let referenceText = document.getElementById(referenceId).innerText.trim();
             document.getElementById("referenceText").value = referenceText;
@@ -181,7 +188,7 @@ function openModal(referenceId) {
     </div>
   </div>
   <div class="profile-img-container">
-    <img src="img/xigao_2031_sq.png" alt="Profile Image" width="300px">
+    <img src="img/xigao_2031_sq.png" alt="Profile Image" width="300px" onclick="toggleProfileImage()">
     <p class="image-quote">"An apple device a day keeps doctoral degree away."</p>
   </div>
 </div>
