@@ -29,7 +29,6 @@ show_sidebar: false
 
   .publication-head {
     background-color: rgba(76,175,80,0.2); /* Green background */
-    color: white; /* White text */
     font-weight: bold;
     font-family: "Arial", "Helvetica", sans-serif; /* Clean, readable font */
     padding: 4px 10px; /* Add padding for spacing */
@@ -41,7 +40,6 @@ show_sidebar: false
 
   .span-news-head {
     background-color: rgba(76,175,80, 0.3); /* Green background */
-    color: Black; /* White text */
     font-weight: bold;
     font-family: "Arial", "Helvetica", sans-serif; /* Clean, readable font */
     padding: 0px 6px; /* Add padding for spacing */
