@@ -40,7 +40,7 @@ show_sidebar: false
 }
 
   .span-news-head {
-    background-color: rgba(76,175,80,0.1); /* Green background */
+    background-color: rgba(76,175,80, 0.3); /* Green background */
     color: Black; /* White text */
     font-weight: bold;
     font-family: "Arial", "Helvetica", sans-serif; /* Clean, readable font */
@@ -120,7 +120,7 @@ show_sidebar: false
         }
       /* button styles */
       .reference-btn {
-        background-color: rgba(102, 236, 107, 0.1); /* Same green with 20% opacity */
+        background-color: rgba(102, 236, 107, 0.3); /* Same green with 20% opacity */
         border: 2px solid rgba(192, 245, 194, 0.1); /* Subtle green border */
         color: #2d6a2d; /* Dark green text, same as span */
         font-family: "Arial", "Helvetica", sans-serif;
@@ -134,7 +134,7 @@ show_sidebar: false
       }
 
       .reference-btn:hover {
-          background-color: rgba(76, 175, 80, 0.4); /* Slightly stronger green on hover */
+          background-color: rgba(76, 175, 80, 0.7); /* Slightly stronger green on hover */
           border-color: rgba(76, 175, 80, 0.7); /* Darken border slightly */
       }
 
