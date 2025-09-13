@@ -198,9 +198,9 @@ function openModal(referenceId) {
 <div class="news-box">
 <!-- News section -->
 <span class="span-news-head">Paper accepted in XRDS!</span> <a href="https://dl.acm.org/doi/abs/10.1145/3744694">Scams at Scale: Unmasking Crypto Fraud and Social Engineering on the Modern Web</a>
-
+<br>
 <span class="span-news-head">Paper accepted in WWW 2025!</span> <a href="https://dl.acm.org/doi/abs/10.1145/3696410.3714588">The Poorest Man in Babylon: A Longitudinal Study of Cryptocurrency Investment Scams</a>
-
+<br>
 <span class="span-news-head">New Career!</span> <span>I have started my career in Meta as a Research Scientist, I work in internationalization (i18n) team, helping to deliver Meta products globally with a local feeling.</span> 
 <br>
 
